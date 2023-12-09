@@ -4,18 +4,22 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
   return (
-    <main className="h-screen p-2 relative">
+    <main className="h-screen w-screen p-2 relative">
       <Image
+        priority
         src="/home-bg-mb.jpg"
         fill
         className="z-0 block lg:hidden"
-        style={{ objectFit: "cover", objectPosition: "bottom"}}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        style={{ objectFit: "cover", objectPosition: "bottom" }}
         alt="background image of an alpine lake in Yosemite National Park"
       />
       <Image
+      priority
         src="/home-bg.jpg"
         fill
         className="z-0 hidden lg:block"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         style={{ objectFit: "cover", objectPosition: "bottom right" }}
         alt="background image of an alpine lake in Yosemite National Park"
       />
