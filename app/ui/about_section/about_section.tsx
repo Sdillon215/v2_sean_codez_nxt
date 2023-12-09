@@ -6,13 +6,13 @@ export default function AboutSection({
     title,
     bodyText,
     imgRight,
-    img,
+    imgPath,
     altText
 }: {
     title: string;
     bodyText: string;
     imgRight: boolean;
-    img: StaticImageData;
+    imgPath: String;
     altText: string;
 }) {
     return (
@@ -23,11 +23,11 @@ export default function AboutSection({
                 <h1 className="text-5xl font-bold">{title}</h1>
                 <h4 className="font-bold">{bodyText}</h4>
             </div> : null}
-            <div className="col-span-2 md:col-span-1 relative md:rounded-lg overflow-clip">
+            <div className="col-span-2 md:col-span-1 relative md:rounded-lg overflow-clip h-[300px] md:h-[500px] w-full">
                 <Image
-                    src={img}
-                    sizes="100vw"
-                    className="h-[300px] md:h-[500px] w-full"
+                    fill
+                    src={imgPath.toString()}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     alt={altText}
                 />

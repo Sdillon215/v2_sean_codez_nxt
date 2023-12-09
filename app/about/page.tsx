@@ -1,7 +1,3 @@
-import climbing from "/public/climbing.jpg";
-import mug from "/public/mustache_mug.jpg";
-import van from '/public/bv_van.webp';
-import tacoDrift from '/public/taco_drift.jpg';
 import AboutSection from "@/app/ui/about_section/about_section";
 
 export default function Page() {
@@ -15,28 +11,28 @@ export default function Page() {
         <h4 className="text-1xl md:text-2xl font-bold">Skier | Intellectual | River Rat</h4>
       </div>
       <AboutSection
-        img={mug}
+        imgPath="/mustache_mug.jpg"
         imgRight={false}
         altText="Sean at campsite laughing with coffee mug in hand"
         title="Component title"
         bodyText="lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
-      />
+        />
       <AboutSection
-        img={van}
+        imgPath="/bv_van.webp"
         imgRight={true}
         altText="Sean\'s van/mobile office parked in the desert with a mountain in the background"
         title="Component van title"
         bodyText="lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
-      />
+        />
       <AboutSection
-        img={tacoDrift}
+        imgPath="/taco_drift.jpg"
         imgRight={false}
         altText="Sean\'s van/mobile office parked in the desert with a mountain in the background"
         title="Component drift title"
         bodyText="lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
-      />
+        />
       <AboutSection
-        img={climbing}
+        imgPath="/climbing.jpg"
         imgRight={true}
         altText="Sean\'s van/mobile office parked in the desert with a mountain in the background"
         title="Component drift title"
