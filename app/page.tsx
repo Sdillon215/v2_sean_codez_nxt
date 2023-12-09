@@ -10,16 +10,16 @@ export default function Home() {
         src="/home-bg-mb.jpg"
         fill
         className="z-0 block lg:hidden"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        sizes="100vw"
         style={{ objectFit: "cover", objectPosition: "bottom" }}
         alt="background image of an alpine lake in Yosemite National Park"
       />
       <Image
-      priority
+        priority
         src="/home-bg.jpg"
         fill
         className="z-0 hidden lg:block"
-        sizes="(max-width: 2000px) 100vw, (max-width: 2000px) 50vw, 33vw"
+        sizes="100vw"
         style={{ objectFit: "cover", objectPosition: "bottom right" }}
         alt="background image of an alpine lake in Yosemite National Park"
       />
