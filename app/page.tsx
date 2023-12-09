@@ -1,23 +1,27 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import homeBgDesktop from '/public/home-bg.jpg';
+import homeBgMobile from '/public/home-bg-mb.jpg';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
   return (
     <main className="h-screen w-screen p-2 relative">
       <Image
-        priority
-        src="/home-bg-mb.jpg"
+        priority={true}
+        src={homeBgMobile}
         fill
+        placeholder="blur"
         className="z-0 block lg:hidden"
         sizes="100vw"
         style={{ objectFit: "cover", objectPosition: "bottom" }}
         alt="background image of an alpine lake in Yosemite National Park"
-      />
+        />
       <Image
-        priority
-        src="/home-bg.jpg"
+        priority={true}
+        src={homeBgDesktop}
         fill
+        placeholder="blur"
         className="z-0 hidden lg:block"
         sizes="100vw"
         style={{ objectFit: "cover", objectPosition: "bottom right" }}
