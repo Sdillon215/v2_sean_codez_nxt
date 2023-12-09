@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { StaticImageData } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 
 export default function AboutSection({
@@ -12,7 +12,7 @@ export default function AboutSection({
     title: string;
     bodyText: string;
     imgRight: boolean;
-    img: StaticImport;
+    img: StaticImageData;
     altText: string;
 }) {
     return (
