@@ -11,7 +11,7 @@ export default function Page() {
         <h4 className="text-1xl md:text-2xl font-bold">Skier | Intellectual | River Rat</h4>
       </div>
       <AboutSection
-        imgPath="/mustache_mug.jpg"
+        imgPath="/mug-portrait.jpg"
         imgRight={false}
         altText="Sean at campsite laughing with coffee mug in hand"
         title="Component title"
@@ -25,7 +25,7 @@ export default function Page() {
         bodyText="lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         />
       <AboutSection
-        imgPath="/taco_drift.jpg"
+        imgPath="/taco-drift.jpg"
         imgRight={false}
         altText="Sean\'s van/mobile office parked in the desert with a mountain in the background"
         title="Component drift title"
