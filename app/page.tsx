@@ -6,7 +6,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen p-2 relative">
+    <main className="h-screen w-screen relative">
       <Image
         priority={true}
         src={homeBgMobile}
@@ -27,15 +27,15 @@ export default function Home() {
         style={{ objectFit: "cover", objectPosition: "bottom right" }}
         alt="background image of an alpine lake in Yosemite National Park"
       />
-      <div className="grid content-end text-center min-h-[42%]  opacity-60 z-1">
-        <h1 className="text-6xl font-bold">Sean Dillon</h1>
-        <h4 className="text-1xl md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
+      <div className="grid content-end text-center min-h-[42%] md:min-h-[40%]  opacity-60 z-1">
+        <h1 className="text-5xl md:text-6xl font-bold">Sean Dillon</h1>
+        <h4 className="md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
       </div>
-      <div className="grid content-start place-content-center min-h-[57%] pb-4 z-1">
+      <div className="grid content-start place-content-center min-h-[58%] md:min-h-[60%] z-1">
         <Link
           key="About-home"
           href="/about"
-          className="flex justify-center items-center w-40 gap-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white p-2 px-3 m-8"
+          className="flex justify-center items-center w-40 gap-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white p-2 px-3 m-4 md:m-6"
         >
           <h4 className="font-bold">Learn More</h4>
           <ArrowRightIcon className="w-5" />

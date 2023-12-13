@@ -3,7 +3,7 @@ import AboutSection from "@/app/ui/about_section/about_section";
 export default function Page() {
   return (
     <main className="grid mx-auto gap-4 py-8 md:px-8 min-h-screen max-w-screen-2xl">
-      <div className="grid gap-4 content-center text-center h-screen opacity-60 pb-32">
+      <div className="grid gap-4 content-center text-center h-screen opacity-60 pb-64">
         <h1 className="text-6xl font-bold">About Me</h1>
         <h4 className="text-1xl md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
         <h4 className="text-1xl md:text-2xl font-bold">Autodidact | Business Owner | Explorer</h4>
