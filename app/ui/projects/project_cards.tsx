@@ -7,7 +7,7 @@ export default async function ProjectCards() {
   return (
     <>
       {projectData.map(((project) =>
-        <Card project={project} />))}
+        <Card key={project.id} project={project} />))}
     </>
   );
 }
