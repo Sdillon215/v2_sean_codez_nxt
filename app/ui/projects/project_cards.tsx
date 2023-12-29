@@ -7,19 +7,21 @@ export default async function ProjectCards() {
   return (
     <>
       {projectData.map(((project) =>
-        <Card key={project.id} project={project} />))}
+        <Card projKey={project.id} project={project} />))}
     </>
   );
 }
 
 export function Card({
+  projKey,
   project
 }: {
+  projKey: string;
   project: Project;
 }) {
 
   return (
-    <Link href={`/projects/${project.id}`}>
+    <Link key={projKey} href={`/projects/${project.id}`}>
       <div className="rounded-xl bg-gray-50 p-2 shadow-sm">
         <div className="flex p-4">
           {/* {Icon ? <Icon className="h-5 w-5 text-gray-700" /> : null} */}
