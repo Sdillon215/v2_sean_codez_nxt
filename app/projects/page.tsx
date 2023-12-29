@@ -1,3 +1,4 @@
 export default function Page() {
-    return <p>projects Page</p>;
+
+    return <p>project page home</p>;
   }
