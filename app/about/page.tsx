@@ -1,7 +1,7 @@
 import Image from "next/image";
 import AboutSection from "@/app/ui/about_section/about_section";
 import SkillsSection from "@/app/ui/skills/skills_section";
-import meFire from "@/public/me-fire2.jpg";
+import meStill from "@/public/me_yup_still_me.png";
 import Link from "next/link";
 
 export default function Page() {
@@ -10,12 +10,12 @@ export default function Page() {
       <div className="grid gap-4 content-center justify-items-center text-center h-screen">
         <Image
           priority
-          src={meFire}
+          src={meStill}
           style={{ objectFit: "cover", objectPosition: "center" }}
-          className="opacity-90 h-[250px] w-[250px] rounded-full shadow-lg"
+          className="opacity-90 h-[40vh] w-[40vh] rounded-full"
           alt="Sean's portrait photo"
         />
-        <div className=" grid gap-1 opacity-70 shadow-lg rounded-xl">
+        <div className=" grid gap-1 opacity-70 rounded-xl">
           <h1 className="text-4xl font-bold border-b-2 min-w-[90vw] md:min-w-[100px] p-2">Hi, I'm Sean</h1>
           <h4 className="text-1xl md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
           <h4 className="text-1xl md:text-2xl font-bold">Autodidact | Business Owner | Explorer</h4>
