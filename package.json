@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "clsx": "^2.0.0",
     "next": "14.0.3",
+    "next-video": "^1.0.6",
     "react": "^18",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18"
