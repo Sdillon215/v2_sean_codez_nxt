@@ -2,8 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import homeBgDesktop from '/public/home-bg.jpg';
-import homeBgMobile from '/public/home-bg-mb.jpg';
+
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import { useState, useEffect } from 'react';
 import ContinuousTransitionImage from './ui/animated_bg/animated_bg';
@@ -54,16 +53,7 @@ const Home: React.FC = () => {
 
   return (
     <main className="h-screen w-screen relative">
-      <Image
-        priority={true}
-        src={homeBgMobile}
-        fill
-        placeholder="blur"
-        className="z-0 block lg:hidden"
-        sizes="100vw"
-        style={{ objectFit: "cover", objectPosition: "bottom" }}
-        alt="background image of an alpine lake in Yosemite National Park"
-      />
+
       <ContinuousTransitionImage transitionProgress={transitionProgress} isInverted={isInverted} />
       <div className="grid content-end text-center min-h-[42%] md:min-h-[40%] opacity-80 z-1">
         <h1 className="text-5xl md:text-6xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Sean Dillon</h1>
