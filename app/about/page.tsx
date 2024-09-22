@@ -16,7 +16,7 @@ export default function Page() {
           alt="Sean's portrait photo"
         />
         <div className=" grid gap-1 opacity-70 rounded-xl">
-          <h1 className="text-4xl font-bold border-b-2 min-w-[90vw] md:min-w-[100px] p-2">{`Hi, I\'m Sean`}</h1>
+          <h1 className="text-4xl font-bold border-b-2 min-w-[90vw] md:min-w-[100px] p-2">{`Hi, I'm Sean`}</h1>
           <h4 className="text-1xl md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
           <h4 className="text-1xl md:text-2xl font-bold">Autodidact | Business Owner | Explorer</h4>
           <h4 className="text-1xl md:text-2xl font-bold">Builder | Entrepreneur | Author</h4>
