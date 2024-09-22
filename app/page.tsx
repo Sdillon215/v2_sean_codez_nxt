@@ -13,7 +13,7 @@ const Home: React.FC = () => {
   const [direction, setDirection] = useState<'forward' | 'backward'>('forward');
 
   useEffect(() => {
-    const transitionDuration = 20000; // 10 seconds
+    const transitionDuration = 15000;
     const steps = 100; // Number of steps for the transition
 
     const intervalDuration = transitionDuration / steps;
