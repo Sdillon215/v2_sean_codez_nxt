@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       let progress = currentStep / steps;
 
       // Adjust the speed near the middle
-      if (progress > 0.45 && progress < 0.55) {
+      if (progress > 0.35 && progress < 0.55) {
         currentStep += 2; // Speed up near the middle
       } else {
         currentStep += 1; // Normal speed
@@ -49,12 +49,12 @@ const Home: React.FC = () => {
     return () => clearInterval(transitionInterval);
   }, [direction]);
 
-  const filterValue = `invert(${isInverted ? transitionProgress * 100 : (1 - transitionProgress) * 100}%)`;
+  const filterValue = `invert(${!isInverted ? transitionProgress * 100 : (1 - transitionProgress) * 100}%)`;
 
   return (
     <main className="h-screen w-screen relative">
 
-      <ContinuousTransitionImage transitionProgress={transitionProgress} isInverted={isInverted} />
+      <ContinuousTransitionImage transitionProgress={transitionProgress} isInverted={!isInverted} />
       <div className="grid content-end text-center min-h-[42%] md:min-h-[40%] opacity-80 z-1">
         <h1 className="text-5xl md:text-6xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Sean Dillon</h1>
         <h4 className="md:text-2xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Nomad | Full Stack Engineer | Climber</h4>
