@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Image
                 priority={true}
                 src={jtree_sunset}
-                sizes="100vw"
+                sizes="100vh"
                 placeholder="blur"
                 className="z-0 fixed h-full opacity-70"
                 style={{ objectFit: "cover", objectPosition: "center" }}
