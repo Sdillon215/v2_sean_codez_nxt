@@ -1,38 +1,24 @@
 const projectData = [
     {
-      id: 'todo-list-app',
-      title: 'Todo List App',
-      description:
-        'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-      gitHubLink: 'https://github.com/',
+      id: 'fv-site',
+      title: 'FloralVibes',
+      imgPath: '/fv_screenshot_desktop.png',
+      shortDescription:
+        'An E-commerce website built with TypeScript, React, Next.js, and Tailwind CSS. Utilizing Shopify for product and inventory management.',
+      fullDescription: 'An E-commerce website built with TypeScript, React, Next.js, and Tailwind CSS. Utilizing Shopify for product and inventory management.',
+      url: 'https://fv-nextjs.vercel.app/',
+      techStack: ['TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Shopify', 'GraphQL'],
     },
     {
-      id: 'books-library-app',
-      title: 'Books Library App',
-      description:
-        'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
-      gitHubLink: 'https://github.com/',
-    },
-    {
-      id: 'quotes-generator',
-      title: 'Quotes Generator',
-      description:
-        'Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-      gitHubLink: 'https://github.com/',
-    },
-    {
-      id: 'password-generator',
-      title: 'Password Generator',
-      description:
-        'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-      gitHubLink: 'https://github.com/',
-    },
-    {
-      id: 'twitter-ui-clone',
-      title: 'Twitter UI Clone',
-      description:
-        'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-      gitHubLink: 'https://github.com/',
+      id: 'dmvans',
+      title: 'Dmvans Campervans',
+      imgPath: '/dmvans_screenshot_desk.png',
+      shortDescription:
+      'A web app for a Camper Van manufacturing company located in Colorado built with flutter and Dart.',
+      fullDescription:
+      'A web app for a Camper Van manufacturer. The app is built with Flutter and Dart as well as many other technologies. The tech stack chosen for this application allows for multiple apps to be built from the same codebase. This enabled the customer facing app as well as a separate app for the sales team to be built and maintained from the same codebase. The customer facing app showcased the van models as well as a van configuration feature allowing for customers to customize their van, place a deposit, and save the configuration to their account. The sales team could then view and further modify a customers van configuration prior to sending exact build specification to the build teams.',
+      url: 'https://dmvans-dev.web.app/',
+      techStack: ['Flutter', 'Dart', 'Firebase', 'GCP', 'JavaScript', 'Hasura', 'PostgreSQL', 'GraphQL', 'Shopify'],
     },
   ];
 

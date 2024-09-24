@@ -1,7 +1,10 @@
 export type Project = {
     id: string;
     title: string;
-    description: string;
-    gitHubLink: string;
+    imgPath: string;
+    shortDescription: string;
+    fullDescription: string;
+    url: string;
+    techStack: string[];
 };
 
