@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { id: string } }) {
     return (
         <main>
             <div className="grid col-span-1 gap-4 h-[65vh] md:place-items-center md:h-full md:w-65vw overflow-auto">
-                <div className="relative flex md:rounded-xl items-end overflow-clip bg-gray-50 shadow-sm w-[100vw] md:w-[40vw] aspect-video">
+                <div className="relative flex md:rounded-xl items-end overflow-clip bg-gray-50 shadow-sm w-[100vw] md:w-[45vw] aspect-video">
                     <Link href={proj!.url} target='_blank'>
                         <Image
                             src={proj!.imgPath.toString()}
