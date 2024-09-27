@@ -10,33 +10,6 @@ import Link from 'next/link';
 //     title: 'Edit Invoice',
 // };
 
-const skills = [
-    'React',
-    'Next.js',
-    "Vercel",
-    'Tailwind CSS',
-    'TypeScript',
-    'GraphQL',
-    'PostgreSQL',
-    'Hasura',
-    'MongoDB',
-    'Express.js',
-    'Node.js',
-    'Flutter',
-    'Dart',
-    'Firebase',
-    'Google Cloud Platform',
-    'Git',
-    'GitHub',
-    'GitLab',
-    'JavaScript',
-    'Heroku',
-    'HTML',
-    'CSS',
-    'VS Code',
-    'Android Studio',
-];
-
 export default async function Page({ params }: { params: { id: string } }) {
     const id = params.id;
     const project = await Promise.all([
@@ -46,12 +19,12 @@ export default async function Page({ params }: { params: { id: string } }) {
     const proj = project[0];
     return (
         <main>
-            <div className="grid col-span-1 gap-4 h-[65vh] overflow-auto">
-                <div className="relative flex items-end overflow-clip bg-gray-50 shadow-sm w-[100vw] aspect-video">
+            <div className="grid col-span-1 gap-4 h-[65vh] md:place-items-center md:h-full md:w-65vw overflow-auto">
+                <div className="relative flex md:rounded-xl items-end overflow-clip bg-gray-50 shadow-sm w-[100vw] md:w-[40vw] aspect-video">
                     <Link href={proj!.url} target='_blank'>
                         <Image
                             src={proj!.imgPath.toString()}
-                            alt="background image of dusk in Joshua Tree National Park"
+                            alt={proj!.imgAltText}
                             fill
                             priority
                             placeholder="blur"
@@ -72,7 +45,6 @@ export default async function Page({ params }: { params: { id: string } }) {
                         {proj!.techStack.map((tech, index) => (
                             <div key={index} className="grid justify-center text-center content-center bg-sky-100 opacity-60 text-black p-4 rounded-lg shadow-md w-50 h-10">
                                 <p className="text-lg font-bold">{tech}</p>
-                                {/* Add additional details or icons if needed */}
                             </div>
                         ))}
                     </div>

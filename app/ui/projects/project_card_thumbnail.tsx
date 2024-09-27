@@ -22,7 +22,7 @@ export function Card({
 
   return (
     <Link href={`/projects/${project.id}`}>
-      <div className="relative flex items-end rounded-xl overflow-clip bg-gray-50 shadow-sm h-[100%] w-[92vw] aspect-video">
+      <div className="relative flex items-end rounded-xl overflow-clip bg-gray-50 shadow-sm h-[100%] w-[92vw] md:w-[30vw] aspect-video">
         <Image
           src={project.imgPath.toString()}
           alt="background image of dusk in Joshua Tree National Park"
