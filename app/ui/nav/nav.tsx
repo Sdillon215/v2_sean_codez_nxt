@@ -63,7 +63,7 @@ export default function Nav() {
         </button>
 
         {isOpen && (
-          <div className="grid content-center place-items-center h-screen w-screen backdrop-blur gap-1 z-22">
+          <div className="grid content-center place-items-center h-screen w-screen backdrop-blur-3xl gap-1 z-22">
             <button
               onClick={toggleNav}
             >

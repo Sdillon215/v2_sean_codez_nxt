@@ -35,7 +35,7 @@ export function Card({
           className="z-0"
         />
 
-        <div className="relative z-10 bg-gray-700/70 p-2 h-1/2 w-full flex-col items-start justify-center overflow-auto">
+        <div className="relative bg-gray-700/70 p-2 h-1/2 w-full flex-col items-start justify-center overflow-auto">
           <p className="text-xl text-white font-bold">{project.title}</p>
           <p className="text-md text-white">{project.shortDescription}</p>
         </div>
