@@ -1,8 +1,10 @@
 import Image from "next/image";
 import AboutSection from "@/app/ui/about_section/about_section";
-import SkillsSection from "@/app/ui/skills/skills_section";
+import TechStackSection from "@/app/ui/tech_stack/tech_section";
 import meStill from "@/public/me_yup_still_me.png";
 import Link from "next/link";
+import EducationSection from "@/app/ui/education/education_section";
+import ExperienceSection from "@/app/ui/experience/experience_section";
 
 export default function Page() {
   return (
@@ -22,7 +24,7 @@ export default function Page() {
           <h4 className="text-1xl md:text-2xl font-bold">Builder | Entrepreneur | Author</h4>
           <h4 className="text-1xl md:text-2xl font-bold">Skier | Intellectual | River Rat</h4>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 content-center justify-items-center text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 content-center justify-items-center text-center">
           <a
             href="#story"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
@@ -30,10 +32,16 @@ export default function Page() {
             <h4 className="font-bold">My Story</h4>
           </a>
           <a
-            href="#skills"
+            href="#tech"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
-            <h4 className="font-bold">Skills</h4>
+            <h4 className="font-bold">Tech Stack</h4>
+          </a>
+          <a
+            href="#education"
+            className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
+          >
+            <h4 className="font-bold">Resume</h4>
           </a>
           <Link
             key="Projects-page"
@@ -90,9 +98,17 @@ export default function Page() {
           that I'm incredibly passionate about and therefor I am equally passionate about the projects that I work on. 
           Please feel free to reach out to me if you're interested in working together or if you have any questions about my work."
       />
-      <div id="skills" className="grid justify-items-center gap-4">
-        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/3 text-center">My Skills</h1>
-        <SkillsSection />
+      <div id="tech" className="grid justify-items-center gap-4">
+        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Tech Stack</h1>
+        <TechStackSection />
+      </div>
+      <div id="education" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
+        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Education</h1>
+        <EducationSection />
+      </div>
+      <div id="experience" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
+        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Experience</h1>
+        <ExperienceSection />
       </div>
       <div className="absolute items-center bottom-0 left-0 p-2">
         <p className="text-xs">
