@@ -72,7 +72,7 @@ export default function Page() {
         title=""
         bodyText="Previously, a climbing guide and mentor at a therapeutic boarding school 
         for at risk teens, I was able to enjoy and share my passion for climbing, mountain biking, 
-        and skiing with the students as well as maintain a healthy work-life balance with 
+        and skiing with the students. Maintaining a healthy work-life balance allowed 
         ample time to travel. However, there came a point when I knew I needed to find a way to 
         make a living while traveling if I ever wanted to pursue my passions to their fullest extent."
       />
