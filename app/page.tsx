@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         <h1 className="text-5xl md:text-6xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Sean Dillon</h1>
         <h4 className="md:text-2xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Nomad | Full Stack Engineer | Climber</h4>
       </div>
-      <div className="grid content-start place-content-center min-h-[58%] md:min-h-[60%] z-1">
+      <div className="grid content-start place-content-center justify-items-center min-h-[58%] md:min-h-[60%] z-1">
         <Link
           key="About-home"
           href="/about"
@@ -69,6 +69,9 @@ const Home: React.FC = () => {
           <h4 className="font-bold">Learn More</h4>
           <ArrowRightIcon className="w-5" />
         </Link>
+        <div>
+        <h5 className="md:text-md p-8 md:w-1/3 backdrop-invert backdrop-blur-sm md:backdrop-opacity-0" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>"Coding is my key to the world and the lifestyle that I'm incredibly passionate about and therefor I am equally passionate about the projects that I work on..."</h5>
+        </div>
       </div>
       <div className="absolute items-center bottom-0 left-0 p-2">
         <p className="text-xs">
