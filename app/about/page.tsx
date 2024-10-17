@@ -95,7 +95,7 @@ export default function Page() {
         bodyText="After coding professionally for several years now I have been able to gain some incredible experience that has continued to 
           push my personal development as an engineer further and further. This has also enabled me to fulfill my long time goal of 
           building a skill set that enables me to sustainably travel and work from anywhere in the world. Coding is my key to the world and the lifestyle 
-          that I'm incredibly passionate about and therefor I am equally passionate about the projects that I work on. 
+          that I'm incredibly passionate about and therefore I am equally passionate about the projects that I work on. 
           Please feel free to reach out to me if you're interested in working together or if you have any questions about my work."
       />
       <div id="tech" className="grid justify-items-center gap-4">

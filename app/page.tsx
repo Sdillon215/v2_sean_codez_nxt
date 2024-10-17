@@ -70,7 +70,7 @@ const Home: React.FC = () => {
           <ArrowRightIcon className="w-5" />
         </Link>
         <div>
-        <h5 className="md:text-md p-8 md:w-1/3 backdrop-invert backdrop-blur-sm md:backdrop-opacity-0" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>{`"Coding is my key to the world and the lifestyle that I am incredibly passionate about and therefor I am equally passionate about the projects that I work on..."`}</h5>
+        <h5 className="md:text-md p-8 md:w-1/3 backdrop-invert backdrop-blur-sm md:backdrop-opacity-0" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>{`"Coding is my key to the world and the lifestyle that I am incredibly passionate about and therefore I am equally passionate about the projects that I work on..."`}</h5>
         </div>
       </div>
       <div className="absolute items-center bottom-0 left-0 p-2">
