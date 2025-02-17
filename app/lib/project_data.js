@@ -1,16 +1,5 @@
 const projectData = [
   {
-    id: 'floralvibes',
-    title: 'FloralVibes',
-    imgPath: '/fv_screenshot_desktop.png',
-    imgAltText: 'FloralVibes website screenshot',
-    shortDescription:
-      'An E-commerce website built with TypeScript, React, Next.js, and Tailwind CSS. Utilizing Shopify for product and inventory management.',
-    fullDescription: 'An E-commerce website built with TypeScript, React, Next.js, and Tailwind CSS. Utilizing Shopify for product and inventory management.',
-    url: 'https://fv-nextjs.vercel.app/',
-    techStack: ['TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Shopify', 'GraphQL', 'Vercel'],
-  },
-  {
     id: 'dmvans',
     title: 'Dmvans Campervans',
     imgPath: '/dmvans_screenshot_desk.png',
