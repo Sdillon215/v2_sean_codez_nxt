@@ -18,37 +18,36 @@ export default function Page() {
           alt="Sean's portrait photo"
         />
         <div className=" grid gap-1 opacity-70 rounded-xl">
-          <h1 className="text-4xl font-bold border-b-2 min-w-[90vw] md:min-w-[100px] p-2">{`Hi, I'm Sean`}</h1>
-          <h4 className="text-1xl md:text-2xl font-bold">Nomad | Full Stack Engineer | Climber</h4>
-          <h4 className="text-1xl md:text-2xl font-bold">Autodidact | Business Owner | Explorer</h4>
-          <h4 className="text-1xl md:text-2xl font-bold">Builder | Entrepreneur | Author</h4>
-          <h4 className="text-1xl md:text-2xl font-bold">Skier | Intellectual | River Rat</h4>
+          <h1 className="text-5xl border-b-2 min-w-[90vw] md:min-w-[100px] p-2">{`Hi, I'm Sean`}</h1>
+          <h4 className="text-1xl md:text-2xl">Nomad | Full Stack Engineer | Climber</h4>
+          <h4 className="text-1xl md:text-2xl">Autodidact | Entrepreneur | Explorer</h4>
+          <h4 className="text-1xl md:text-2xl">Skier | Adventurer | Writer</h4>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 content-center justify-items-center text-center">
           <a
             href="#story"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
-            <h4 className="font-bold">My Story</h4>
+            <h4>My Story</h4>
           </a>
           <a
             href="#tech"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
-            <h4 className="font-bold">Tech Stack</h4>
+            <h4>Tech Stack</h4>
           </a>
           <a
             href="#education"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
-            <h4 className="font-bold">Resume</h4>
+            <h4>Resume</h4>
           </a>
           <Link
             key="Projects-page"
             href="/projects"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
-            <h4 className="font-bold">Projects</h4>
+            <h4>Projects</h4>
           </Link>
         </div>
       </div>
@@ -99,15 +98,15 @@ export default function Page() {
           Please feel free to reach out to me if you're interested in working together or if you have any questions about my work."
       />
       <div id="tech" className="grid justify-items-center gap-4">
-        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Tech Stack</h1>
+        <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Tech Stack</h1>
         <TechStackSection />
       </div>
       <div id="education" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
-        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Education</h1>
+        <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Education</h1>
         <EducationSection />
       </div>
       <div id="experience" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
-        <h1 className="text-4xl font-bold border-b-2 pb-2 w-screen-md w-1/2 text-center">Experience</h1>
+        <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Experience</h1>
         <ExperienceSection />
       </div>
       <div className="absolute items-center bottom-0 left-0 p-2">

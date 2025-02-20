@@ -1,6 +1,6 @@
 export default function EducationSection() {
     return (
-        <div className="grid grid-cols-4 gap-4 max-w-screen-lg mx-auto justify-items-start px-4">
+        <div className="grid grid-cols-4 gap-4 max-w-screen-md justify-items-start px-4">
             <div className="col-span-1">
                 <p className="text-2xl font-bold">2021</p>
             </div>
