@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="grid content-center justify-items-center text-center">
       <div className="flex flex-col gap-2 justify-center items-center text-center max-w-screen-lg h-[60vh] p-4">
-        <h1 className="text-6xl md:text-8xl border-b-2 min-w-[90vw] md:min-w-[100px] p-2 w-1/2">Projects</h1>
+        <h1 className="text-6xl md:text-8xl border-b-2 min-w-[90vw] md:min-w-[100px] p-4 w-1/2">Projects</h1>
         <h4 className="text-1xl md:text-2xl w-full md:w-2/3">Here are a few of my projects. To view even more of my work or to check out the associated code bases feel free to visit my Github!</h4>
         <Link className="w-24 m-4" target="_blank" href="https://github.com/Sdillon215">
           <FontAwesomeIcon className="w-24" icon={faGithub} />

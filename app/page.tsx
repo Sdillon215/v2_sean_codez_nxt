@@ -56,8 +56,8 @@ const Home: React.FC = () => {
 
       <ContinuousTransitionImage transitionProgress={transitionProgress} isInverted={!isInverted} />
       <div className="grid content-end text-center min-h-[42%] md:min-h-[40%] opacity-80 z-1">
-        <h1 className="text-5xl md:text-6xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Sean Dillon</h1>
-        <h4 className="md:text-2xl font-bold" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Nomad | Full Stack Engineer | Climber</h4>
+        <h1 className="text-5xl md:text-6xl" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Sean Dillon</h1>
+        <h4 className="md:text-2xl" style={{ filter: filterValue, transition: "filter 0.1s ease" }}>Nomad | Full Stack Engineer | Climber</h4>
       </div>
       <div className="grid content-start place-content-center justify-items-center min-h-[58%] md:min-h-[60%] z-1">
         <Link
@@ -66,7 +66,7 @@ const Home: React.FC = () => {
           className="flex justify-center items-center w-40 gap-2 rounded-lg border border-white hover:border-black bg-slate-500 hover:bg-sky-100 opacity-60 hover:text-black text-white p-2 px-3 m-4 md:m-6"
           style={{ filter: filterValue, transition: "filter 0.1s ease" }}
         >
-          <h4 className="font-bold">Learn More</h4>
+          <h4>Learn More</h4>
           <ArrowRightIcon className="w-5" />
         </Link>
         <div>
