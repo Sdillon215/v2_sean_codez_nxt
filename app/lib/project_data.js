@@ -1,5 +1,17 @@
 const projectData = [
   {
+    id: 'rock-beta',
+    title: 'Rock Beta',
+    imgPath: '/rock-beta.png',
+    imgAltText: 'Rock beta website screenshot',
+    shortDescription:
+      'Rock Beta is a full-stack application serving as a repository of rock climbing information.',
+    fullDescription:
+      'Rock Beta is a full-stack application serving as a repository of rock climbing information. Users can view and contribute climbing areas and routes including photos and relevant information. The app is built with Nextjs, Typescript, TailwindCSS, Neon PostgreSQL database combined with Hasura cloud enabling GraphQL, Vercel hosting and Blob image storage, and Mapbox. This application is a clone of Mountain Project and is only intended for my personal use as a portfolio piece showcasing my full-stack development skills.',
+    url: 'https://rock-beta-virid.vercel.app/',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel', 'Blob', 'Hasura', 'PostgreSQL', 'GraphQL', 'Mapbox'],
+  },
+  {
     id: 'dmvans',
     title: 'Dmvans Campervans',
     imgPath: '/dmvans_screenshot_desk.png',
