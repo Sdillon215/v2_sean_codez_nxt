@@ -97,17 +97,17 @@ export default function Page() {
           that I'm incredibly passionate about and therefore I am equally passionate about the projects that I work on. 
           Please feel free to reach out to me if you're interested in working together or if you have any questions about my work."
       />
-      <div id="tech" className="grid justify-items-center gap-4">
+      <div id="tech" className="grid justify-items-center gap-4 py-12">
         <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Tech Stack</h1>
         <TechStackSection />
       </div>
-      <div id="education" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
-        <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Education</h1>
-        <EducationSection />
-      </div>
-      <div id="experience" className="grid justify-items-center gap-4 shadow-lg rounded-lg z-10 opacity-70">
+      <div id="experience" className="grid justify-items-center gap-4 py-12 shadow-lg rounded-lg z-10 opacity-70">
         <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Experience</h1>
         <ExperienceSection />
+      </div>
+      <div id="education" className="grid justify-items-center gap-4 py-12 shadow-lg rounded-lg z-10 opacity-70">
+        <h1 className="text-4xl border-b-2 pb-2 w-screen-md w-1/2 text-center">Education</h1>
+        <EducationSection />
       </div>
       <div className="absolute items-center bottom-0 left-0 p-2">
         <p className="text-xs">
