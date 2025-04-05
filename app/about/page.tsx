@@ -37,7 +37,7 @@ export default function Page() {
             <h4>Tech Stack</h4>
           </a>
           <a
-            href="#education"
+            href="#experience"
             className="w-40 p-2 rounded-lg bg-sky-100 hover:bg-slate-500 opacity-60 text-black hover:text-white"
           >
             <h4>Resume</h4>
