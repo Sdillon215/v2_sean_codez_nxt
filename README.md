@@ -7,6 +7,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 The `.nvmrc` file in the repo keeps local development and Vercel builds aligned. If you are using another version manager, configure it to use the same Node release.
 
+## Branding Assets
+
+- `app/favicon.ico` – multi-resolution SD monogram used by browsers.
+- `app/icon.png` – high-res source used for previews and future exports.
+
+Regenerate the favicon with `python tools/generate_icon.py` (after `pip install Pillow`) if you want to tweak colors or glyphs.
+
 ## Getting Started
 
 First, run the development server:
