@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Requirements
+
+- Node.js 22.x (match Vercel by running `nvm use` or `volta pin`)
+- npm 10+ (bundled with Node 22)
+
+The `.nvmrc` file in the repo keeps local development and Vercel builds aligned. If you are using another version manager, configure it to use the same Node release.
+
 ## Getting Started
 
 First, run the development server:

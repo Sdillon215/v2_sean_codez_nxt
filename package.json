@@ -2,6 +2,9 @@
   "name": "v2_sean_codez_nxt",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
